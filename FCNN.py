@@ -3,6 +3,8 @@
 Created on Fri Apr  4 13:01:14 2025
 
 @author: jarom
+
+Funding:  EU NextGenerationEU through the Recovery and Resilience Plan for Slovakia under the project NEURALSENS 09I05-03-V02-00058
 """
 
 import numpy as np
@@ -436,4 +438,5 @@ plt.plot(X2P)
 
 
 tpol=np.polyfit(X2P,X2B-X2A,2)
+
 
