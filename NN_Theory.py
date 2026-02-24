@@ -3,6 +3,7 @@
 Created on Wed Feb 12 06:54:24 2025
 
 @author: jarom
+Funding:  EU NextGenerationEU through the Recovery and Resilience Plan for Slovakia under the project NEURALSENS 09I05-03-V02-00058
 """
 
 import numpy as np
@@ -105,6 +106,7 @@ test_sample = np.array([[0.8, 0.6]])  # Example input
 hidden = sigmoid(np.dot(test_sample, W1) + b1)
 output = sigmoid(np.dot(hidden, W2) + b2)
 print(f"Test Prediction: {output}")
+
 
 
 
