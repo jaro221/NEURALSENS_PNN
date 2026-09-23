@@ -1,0 +1,20 @@
+# Only source code (*.py) and figures (*.png) are tracked in this repository.
+# Manuscripts, proposals, budgets, CVs, raw measurement data and binary office
+# documents are deliberately left out.
+
+# ignore everything by default
+*
+
+# but descend into subdirectories so their .py/.png files can be matched
+!*/
+
+# keep source and figures
+!*.py
+!*.png
+
+# keep this file itself
+!.gitignore
+
+# never keep build caches
+__pycache__/
+*.pyc
